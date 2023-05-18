@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="541.0" prefWidth="615.0" spacing="10.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab4v2.HelloController">
+   <children>
+      <Label text="Rodzaj blachy" />
+      <ChoiceBox fx:id="metal" prefWidth="150.0" />
+      <Label text="Promień walca [cm]" />
+      <TextField fx:id="radius" />
+      <Label text="Wysokość walca [cm]" />
+      <TextField fx:id="height" />
+      <Label text="Grubość blachy [mm]" />
+      <TextField fx:id="thickness" />
+      <Label text="Ciężar walca [kg]" />
+      <TextField fx:id="weight" editable="false" style="-fx-base: #42bcf5;" />
+      <Label text="Koszt materiału [zł]" />
+      <TextField fx:id="cost" editable="false" style="-fx-base: #42bcf5;" />
+      <Button fx:id="start" mnemonicParsing="false" prefHeight="35.0" prefWidth="168.0" style="-fx-base: #8fe1ff;" text="Oblicz">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <VBox.margin>
+            <Insets top="30.0" />
+         </VBox.margin></Button>
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>
